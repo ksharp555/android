@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<item
+	    android:id="@+id/settings"
+	    android:orderInCategory="105"
+	    android:title="@string/settings"
+	    app:showAsAction="ifRoom|withText">
+	    
+	   <menu> 
+	
+		    <item
+		        android:id="@+id/signout"
+		        android:orderInCategory="104"
+		        android:title="@string/signout"
+		        app:showAsAction="ifRoom|withText"/>
+		    <item 
+		        android:id="@+id/selected_SimChinese"
+		        android:orderInCategory="103"
+		        android:title="@string/Simplified_chinese"
+		        app:showAsAction="ifRoom|withText"/>
+		    <item android:id="@+id/selected_english" 
+		          android:title="@string/Engish"
+		          app:showAsAction="ifRoom|withText"/>
+		    <item android:id="@+id/selected_Spanish" 
+		          android:title="@string/Spanish"
+		          app:showAsAction="ifRoom|withText"/>
+		    <item android:id="@+id/selected_TraChinese" 
+		          android:title="@string/Traditional_chinese"
+		          app:showAsAction="ifRoom|withText"/>
+		    <item android:id="@+id/defaultButton"
+				  android:title="@string/defaultButtonsettings"
+				  app:showAsAction="ifRoom|withText">
+				<menu>
+				    <item android:id="@+id/videosettings"
+						  android:title="@string/video"
+						  app:showAsAction="ifRoom|withText"/>
+				    <item android:id="@+id/audiosettings"
+						  android:title="@string/audio"
+						  app:showAsAction="ifRoom|withText"/>
+				    <item android:id="@+id/picturesettings"
+						  android:title="@string/record"
+						  app:showAsAction="ifRoom|withText"/>
+				    
+				    </menu>	  
+			</item>
+	    </menu>
+	</item>
+</menu>

@@ -1,0 +1,167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vs.MainActivity" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="175dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <VideoView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="start" >
+        </VideoView>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frameLayout1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/pre"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="82dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.47"
+            android:background="@drawable/previousbutton"
+             />
+
+				<Button
+		            android:visibility="invisible"
+		            style="?android:attr/buttonStyleSmall"
+		            android:layout_width="50dp"
+		            android:layout_height="wrap_content"
+		            android:background="@drawable/nextbutton" />
+				<Button
+		            android:visibility="invisible"
+		            style="?android:attr/buttonStyleSmall"
+		            android:layout_width="50dp"
+		            android:layout_height="wrap_content"
+		            android:background="@drawable/nextbutton" />
+				<Button
+		           android:visibility="invisible"
+		            style="?android:attr/buttonStyleSmall"
+		            android:layout_width="50dp"
+		            android:layout_height="wrap_content"
+		            android:background="@drawable/nextbutton" />
+				<Button
+		            android:visibility="invisible"
+		            style="?android:attr/buttonStyleSmall"
+		            android:layout_width="30dp"
+		            android:layout_height="wrap_content"
+		            android:background="@drawable/nextbutton" />
+		       
+        <Button
+            android:id="@+id/nxt"
+            style="?android:attr/buttonStyleSmall"
+            android:background="@drawable/nextbutton"
+            android:layout_width="82dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.47"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearlayout1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/retrievepic"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            
+            android:text="retrieveVideo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2"
+        android:gravity="clip_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/searchbtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear2"
+            android:gravity="clip_horizontal"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/cam"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="uploadfunction" />
+
+            <Button
+                android:id="@+id/sendmesg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="sendmesg" />
+
+        <Button
+            android:id="@+id/openapp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="downloadImage" />
+        
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="225dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="225dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/date1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="selectdate1" />
+
+            <Button
+                android:id="@+id/date2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="selectdate2" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

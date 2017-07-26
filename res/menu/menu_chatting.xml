@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+   
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_content_new"
+        android:orderInCategory="110"
+        android:title="add"
+        app:showAsAction="always|withText">
+        <menu>
+            <item
+                android:id="@+id/addMember"
+                android:orderInCategory="111"
+                android:title="Add Member"
+                app:showAsAction="always|withText"/>
+          
+         
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">seguridad personal</string>
+    <string name="Engish">Inglés</string>
+    <string name="Simplified_chinese">chino</string>
+    <string name="Traditional_chinese">Chino tradicional</string>
+    <string name="Spanish">Español</string>
+	<string name="registerHereHint">Ingrese</string>
+	<string name="hint_registration_id">nombre de usuario</string>
+    <string name="hint_device_name">Contraseña</string>
+    <string name="register">Registro</string>
+    <string name="login">Ingresar</string>
+    <string name="add">añadir</string>
+    <string name="showmap">Ver mapa</string>
+    <string name="date">Fecha</string>
+    <string name="Fetch">conseguir</string>
+    <string name="selectdate1">Seleccionar fechas1</string>
+    <string name="selectdate2">Seleccionar fechas2</string>
+    <string name="signout">Salir</string>
+    <string name="settings">configurar</string>
+    <string name="record">grabación</string>
+    <string name="view">Navega</string>
+    <string name="text">mensajes cortos</string>
+    <string name="sms">Mensaje de Emergencia</string>
+    <string name="start_take_PIC">tomar</string>
+    <string name="End_take_PIC">Deténgase</string>
+    <string name="video">Vídeo</string>
+    <string name="audio">Audio</string>
+    <string name="creategroup">crear grupo</string>
+    <string name="joingroup">unirse a grupo</string>
+    <string name="defaultButton">DefaultButton</string>
+    <string name="defaultButtonsettings">DefaultButton</string>
+    <string name="advertisement">anuncio</string>
+    <string name="tree">árbol</string>
+</resources>

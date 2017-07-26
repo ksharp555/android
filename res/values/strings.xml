@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Person Security</string>
+    <string name="Engish">English</string>
+    <string name="Simplified_chinese">Simplified Chinese</string>
+    <string name="Traditional_chinese">Tradional Chinese</string>
+    <string name="Spanish">Spanish</string>
+    <string name="db_name">EmergencyMessaging</string>
+    <string name="db_version">1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="emergency">EMERGENCY</string>
+    <string name="enterMessageHint">Enter your message</string>
+    <string name="sendHint">Send</string>
+    <string name="content_description_registration">image</string>
+    <string name="registerHereHint">Enter details</string>
+    <string name="hint_registration_id">Username</string>
+    <string name="hint_device_name">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="add">Add To Group</string>
+    <string name="showmap">ShowMap</string>
+    <string name="date">date</string>
+    <string name="Fetch">Fetch</string>
+    <string name="selectdate1">SelectDate1</string>
+    <string name="selectdate2">SelectDate1</string>
+    <string name="signout">signout</string>
+    <string name="settings">settings</string>
+    <string name="record">record</string>
+    <string name="view">view</string>
+    <string name="text">text</string>
+    <string name="sms">sms</string>
+    <string name="start_take_PIC">start</string>
+    <string name="End_take_PIC">End</string>
+    <string name="video">video</string>
+    <string name="audio">audio</string>
+    <string name="creategroup">Create Group</string>
+    <string name="joingroup">Join Group</string>
+    <string name="defaultButton">DefaultButton</string>
+    <string name="defaultButtonsettings">defalutbuttonsettings</string>
+    <string name="advertisement">advertisement</string>
+    <string name="tree">tree</string>
+    <string name="contact">find a product&#8230;</string>
+    <string name="search">Search</string>
+      <string-array name="groups">
+        <item>Work</item>
+        <item>Home</item>
+        <item>Friends</item>
+    </string-array>
+
+    <string name="addPersonHint">Add person to this group</string>
+</resources>

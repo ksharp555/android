@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+   
+    <item
+        android:id="@+id/add"
+        android:orderInCategory="110"
+        android:title="@string/add"
+        app:showAsAction="always|withText">
+        <menu>
+            <item
+                android:id="@+id/createGroup"
+                android:orderInCategory="111"
+                android:title="@string/creategroup"
+                app:showAsAction="always|withText"/>
+            <item
+                android:id="@+id/joinGroup"
+                android:orderInCategory="112"
+                android:title="@string/joingroup"
+                app:showAsAction="always|withText"/>
+         
+        </menu>
+    </item>
+
+</menu>

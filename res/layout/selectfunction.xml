@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/dialog_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_style_alert_dialog_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_take_photo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/btn_style_alert_dialog_button"
+            android:text="takingimage"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_take_video"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/btn_style_alert_dialog_button"
+            android:text="takingvideo"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_take_audio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/btn_style_alert_dialog_button"
+            android:text="takingAudio"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn_send_mesg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/btn_style_alert_dialog_button"
+            android:text="Send Message"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn_download_img"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/btn_style_alert_dialog_button"
+            android:text="Download Image"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="40dip"
+            android:background="@drawable/btn_style_alert_dialog_cancel"
+            android:text="Sign out"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

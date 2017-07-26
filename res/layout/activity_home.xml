@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <SurfaceView
+                android:id="@+id/surface_camera"
+                android:layout_width="1dp"
+                android:layout_height="1dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="100dp"
+                        android:src="@drawable/record" />
+
+                    <Button
+                        android:id="@+id/recordButton"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="#4285F4"
+                        android:padding="5dp"
+                        android:shadowColor="#4E4F4D"
+                        android:shadowDx="5"
+                        android:shadowDy="5"
+                        android:shadowRadius="1"
+                        android:text="@string/record"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageView01"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="100dp"
+                        android:src="@drawable/downloadfromcloud256" />
+
+                    <Button
+                        android:id="@+id/viewButton"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="#4285F4"
+                        android:padding="5dp"
+                        android:shadowColor="#4E4F4D"
+                        android:shadowDx="5"
+                        android:shadowDy="5"
+                        android:shadowRadius="1"
+                        android:text="@string/view"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageView02"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="100dp"
+                        android:src="@drawable/text" />
+
+                    <Button
+                        android:id="@+id/chatButton"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="#4285F4"
+                        android:padding="5dp"
+                        android:shadowColor="#4E4F4D"
+                        android:shadowDx="5"
+                        android:shadowDy="5"
+                        android:shadowRadius="1"
+                        android:text="@string/text"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageView03"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="100dp"
+                        android:src="@drawable/text"
+                        android:visibility="invisible" />
+
+                    <Button
+                        android:id="@+id/messagingButton"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="#4285F4"
+                        android:padding="5dp"
+                        android:shadowColor="#4E4F4D"
+                        android:shadowDx="5"
+                        android:shadowDy="5"
+                        android:shadowRadius="1"
+                        android:text="@string/sms"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageView04"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="100dp"
+                        android:src="@drawable/text"
+                        android:visibility="invisible" />
+
+                    <Button
+                        android:id="@+id/defaultbutton"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="#4285F4"
+                        android:padding="5dp"
+                        android:shadowColor="#4E4F4D"
+                        android:shadowDx="5"
+                        android:shadowDy="5"
+                        android:shadowRadius="1"
+                        android:text="@string/defaultButton"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageView05"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="100dp"
+                        android:src="@drawable/text"
+                        android:visibility="invisible" />
+
+                    <Button
+                        android:id="@+id/adBtn"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="#4285F4"
+                        android:padding="5dp"
+                        android:shadowColor="#4E4F4D"
+                        android:shadowDx="5"
+                        android:shadowDy="5"
+                        android:shadowRadius="1"
+                        android:text="@string/advertisement"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageView06"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="100dp"
+                        android:src="@drawable/text"
+                        android:visibility="invisible" />
+
+                    <Button
+                        android:id="@+id/tree"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="#4285F4"
+                        android:padding="5dp"
+                        android:shadowColor="#4E4F4D"
+                        android:shadowDx="5"
+                        android:shadowDy="5"
+                        android:shadowRadius="1"
+                        android:text="@string/tree"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

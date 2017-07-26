@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.test.Mainupload" >
+
+     <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </SurfaceView>
+
+	    <Button
+	        android:id="@+id/endtake"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginBottom="23dp"
+	        android:text="@string/End_take_PIC" />
+
+	    <Button
+	        android:id="@+id/takepicture"
+	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/endtake"
+	        android:layout_alignLeft="@+id/endtake"
+	        android:layout_marginBottom="22dp"
+	        android:background="@drawable/camera60"
+	        android:text="@string/start_take_PIC" />
+
+</RelativeLayout>

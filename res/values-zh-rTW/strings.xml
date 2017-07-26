@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Engish">英語</string>
+    <string name="Spanish">西班牙語</string>
+    <string name="Simplified_chinese">簡體中文</string>
+    <string name="Traditional_chinese">繁體中文</string>
+	<string name="registerHereHint">輸入</string>
+	<string name="hint_registration_id">用戶名</string>
+    <string name="hint_device_name">密碼</string>
+    <string name="register">註冊</string>
+    <string name="login">登入</string>
+    <string name="add">添加到組</string>
+    <string name="showmap">顯示地圖</string>
+    <string name="date">日期</string>
+    <string name="Fetch">獲取</string>
+    <string name="selectdate1">選擇日期1</string>
+    <string name="selectdate2">選擇日期2</string>
+    <string name="signout">登出</string>
+    <string name="settings">偏好</string>
+    <string name="record">錄製</string>
+    <string name="view">瀏覽</string>
+    <string name="text">短消息</string>
+    <string name="sms">緊急消息</string>
+    <string name="start_take_PIC">開始拍照</string>
+    <string name="End_take_PIC">停止</string>
+    <string name="video">視頻</string>
+    <string name="audio">音頻</string>
+    <string name="creategroup">創建組</string>
+    <string name="joingroup">加入組</string>
+    <string name="tree">樹</string>
+</resources>

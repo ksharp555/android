@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:app="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:context="{relativePackage}.${activityClass}" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" >
+
+                <EditText
+                    android:id="@+id/searchtext"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="search Advertisement" >
+
+                    <requestFocus />
+                </EditText>
+
+                <Button
+                    android:id="@+id/searchbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_weight="1"
+                    android:background="#FF7F00"
+                    android:text="search"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/list1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>
